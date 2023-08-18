@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   
+}
+.navbar{
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    text-align: center;
+
+}
+
+nav{
+    /* background-color: black; */
+    color: black;
+    width: 90%;
+  
+    display: flex;
+    justify-content: space-between;
+   margin: auto;
+   font-size: 16px;
+   margin-top: 2rem;
+   position: sticky;
+   top: 0;
+}
+.nav-items ul{
+    display: flex;
+    gap: 2rem;
+}
+nav .nav-items ul a{
+    color: black;
+    text-transform: uppercase;
+}
