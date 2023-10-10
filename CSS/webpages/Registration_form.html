@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+      }
+      h3 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 40%;
+      }
+      p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .container .main {
+        justify-items: auto;
+      }
+
+      .container .main .fline {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+      }
+      .container .main .sline {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+      }
+      .container .main .tline {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+      }
+      .container .smain .sfline
+      {
+        display: flex;
+        justify-content: space-around;
+      }
+      .container .smain .ssline
+      {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+      }
+      .container .smain .stline
+      {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+      }
+      .container .tmain .tfline
+      {
+        display: flex;
+        justify-content: space-around;
+      }
+      .container .tmain .tsline
+      {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+      }
+      .container .tmain .ttline
+      {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+      }
+
+      .container .tmain p
+      {
+        margin-top: 20px;
+      }
+      .container .tmain .tlastpart .lfline
+      {
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .container .tmain .tlastpart .lsline
+      {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="post">
+        <div class="fmain">
+          <h3>Registraion Form</h3>
+          <hr />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea
+            temporibus aliquam illum rerum. Aut, excepturi Ea temporibus aliquam
+            <br />adipisicing elit. Ea temporibus aliquam illum.
+          </p>
+          <div class="main">
+            <div class="fline">
+              <div class="Name">
+                <input type="text" placeholder="Name:" required />
+              </div>
+              <div class="bday">
+                <input type="date" placeholder="Date of Birth: " />
+              </div>
+            </div>
+            <div class="sline">
+              <div class="add1">
+                <input type="text" placeholder="Address 1: " required />
+              </div>
+              <div class="add2">
+                <input type="text" placeholder="Address 2: " required />
+              </div>
+            </div>
+            <div class="tline">
+              <input type="text" placeholder="City: " />
+
+              <div class="phoneNumber">
+                <label for="">Phone Number</label>
+                <div class="checkbox">
+                  <input type="checkbox" id="ho" />
+                  <label for="ho">Home</label>
+                  <input type="checkbox" id="ce" />
+                  <label for="ce">Cell</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="smain">
+            <h3>CONTACT DETAILS</h3>
+            <div class="sfline">
+                <div class="email">
+                    <input type="email" placeholder="Email:- " required>
+                </div>
+                <div class="bname">
+                    <input type="text" name="Bussiness name" placeholder="Bussiness Name:- " required>
+                </div>
+            </div>
+            <div class="ssline">
+                <div class="father">
+                    <input type="text" name="father name" placeholder="Father Name: ">
+                </div>
+                <div class="mother">
+                    <input type="text" name="mother name" placeholder="Mother Name: ">
+                </div>
+            </div>
+            <div class="stline">
+                <div class="fother">
+                    <input type="text" name="other 1" placeholder="Other.1: ">
+                </div>
+                <div class="sother">
+                    <input type="text" name="Other 2" placeholder="Other.2: ">
+                </div>
+            </div>
+        </div>
+
+        <div class="tmain">
+            <h3>OTHER INFORMATION</h3>
+            <div class="tfline">
+                <div class="startdate">
+                    <input type="text" name="Start Date" placeholder="Start Date: " required>
+                </div>
+                <div class="enddate">
+                    <input type="text" name="End Date" placeholder="End Date: " required>
+                </div>
+                <div class="time">
+                    <input type="text" name="Time" placeholder="Time: " required>
+                </div>
+            </div>
+            <div class="tsline">
+                <div class="annualpayment">
+                    <label for="annualpayment">Annual Payment</label>
+                </div>
+                <div class="anualpay">
+                    <input type="number" name="Annual Payment" placeholder="$" required>
+                </div>
+            </div>
+            <div class="ttline">
+                <div class="totalannualpayment">
+                    <label for="totalannualpayment">Total Annual Payment</label>
+                </div>
+                <div class="totalannualpay">
+                    <input type="number" name="Total Annual Payment" placeholder="$" required>
+                </div>
+            </div>
+            <div class="tpara">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae qui tempora mollitia <br>ipsa quaerat, saepe voluptas sint rerum ex eaque.
+                </p>
+            </div>
+
+            <div class="tlastpart">
+                <div class="lfline">
+                    <div class="fullname">
+                        <input type="text" name="Full Name" placeholder="Full Name: " required>
+                    </div>
+                    <div class="paidvia">
+                        <input type="text" name="Paid Vai" placeholder="Paid Via: " required>
+                    </div>
+                </div>
+                <div class="lsline">
+                    <div class="ldate">
+                        <input type="text" name="Last Date" placeholder="Date">
+                    </div>
+                    <div class="signature">
+                        <input type="image" name="Signature" placeholder="Signature" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+      </form>
+    </div>
+  </body>
+</html>

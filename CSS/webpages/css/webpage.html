@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: 0 border-box;
+        }
+        .container
+        {
+            background-color: rgb(131, 184, 81);
+            height: 100%;
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            padding: 5%;
+        }
+        .RegistraionBox
+        {
+            padding: 9%;
+            margin: 2%;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="#">
+        <div class="container">
+            <div class="RegistraionBox">
+                <h3>Registraion</h3>
+                <div>
+                    <label for="Full Name">Enter your Name</label>
+                    <input type="text" placeholder="Enter your name" required> 
+                </div>
+                <div>
+                    <label for="Password">Enter password</label>
+                    <input type="password" placeholder="Enter Password" required>
+                </div>
+                <div>
+                    <label for="Cpass">Confirm password</label>
+                    <input type="password" placeholder="Please Reenter your password" required>
+                </div>
+                <div>
+                    <label for="email">Enter Email</label>
+                    <input type="email" placeholder="Enter Email" required>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+           
+        </div>
+    </form>
+
+</body>
+</html>

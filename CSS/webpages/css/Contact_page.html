@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background-color: lightgray;
+      }
+      .wrapper {
+        /* display: flex; */
+        /* justify-content: center; */
+        border: 1px solid black;
+        height: 450px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        background-color: yellow;
+      }
+      /* .rightbox
+        {
+            width: 15%;
+            border: 1px solid black;
+            background-color:yellow;
+        } */
+      .leftbox {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+        background-color: aqua;
+        /* padding-left: 100px; */
+        border: 1px solid black;
+        margin-right: 10%;
+        position: relative;
+      }
+      .left {
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-bottom: 20%;
+      }
+      .left p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .fourline {
+        width: 100%;
+      }
+      .leftbox .left .fourline input {
+        width: 50%;
+        margin: 10px;
+        padding: 10px;
+        border: none;
+        border-bottom: 2px solid black;
+      }
+      .leftbox .left .fourline .submit button {
+        width: 50%;
+        margin: 10px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+      }
+      .zindex {
+        border: 1px solid black;
+        /* margin-right: 90px; */
+        /* padding-top: 100px; */
+        position: absolute;
+      }
+
+      .main {
+        /* margin: 5px; */
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="wrapper">
+        <div class="leftbox">
+          <div class="left">
+            <h1>Contact Us</h1>
+            <p>
+              Feel tree to contact us any time. we will get <br />
+              back to you as soos as we can!
+            </p>
+            <div class="fourline">
+              <div class="name">
+                <input type="text" name="Name" placeholder="Name" />
+              </div>
+              <div class="email">
+                <input type="email" name="Email" placeholder="Email" />
+              </div>
+              <div class="message">
+                <input type="text" name="Message" placeholder="Message" />
+              </div>
+              <div class="submit">
+                <button type="button">SEND</button>
+              </div>
+            </div>
+          </div>
+          <div class="rightbox">
+            <div class="zindex">
+              <div class="info">
+                <h3>Info</h3>
+              </div>
+              <div class="mail">
+                <h5>Info@getintouch.we</h5>
+              </div>
+              <div class="mobile">
+                <h5>+24 56 89 146</h5>
+              </div>
+              <div class="cal">
+                <h5>14 Greenroad St.</h5>
+              </div>
+              <div class="time">
+                <h5>09:00 - 18:00</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
