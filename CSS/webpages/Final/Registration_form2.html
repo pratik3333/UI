@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* background-color: rgb(22, 102, 213); */
+            
+        }
+        body
+        {
+            background-color: rgb(110, 186, 186);
+        }
+
+        .main
+        {
+            width: 80%;
+            height:440px;
+            /* border: 1px solid black; */
+            margin-left: 10%;
+            margin-top: 5%;
+            box-shadow: 0 0 20px 20px gray;
+            
+        }
+
+        .upper
+        {
+            /* border: 1px solid black; */
+            height: 220px;
+            background-color: rgb(55, 119, 130);
+            padding-top: 0.1px;
+        }
+        .lower
+        {
+            /* border: 1px solid black; */
+            height: 220px;
+            background-color: white;
+        }
+        .firstline
+        {
+
+            margin-top: 30px;;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .leftside h3
+        {
+            color: white;
+        }
+        .secondline h3
+        {
+            color: white;
+        }
+
+        .secondline h3
+        {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .form
+        {
+            border: 1px solid black;
+            margin-left: 260px;
+            margin-right: 260px;
+            border-radius: 20px;
+            margin-top: -330px;
+            background-color: white;
+            padding: 30px;
+        }
+        .check
+        {
+            display: flex;
+            /* justify-content: space-between; */
+            margin-top: 10px;
+        }
+        .heading h3
+        {
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+        }
+        .data
+        {
+            margin-left: 20px;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+         .data input
+        {
+            margin-bottom: 5px;
+            padding: 5px;
+            /* width: 200px; */
+        }
+        .inp input
+        {
+            width: 250px;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+        .data button
+        {
+            margin-top: 10px;
+            width: 80px;
+        }
+        .tex
+        {
+            margin-left: 7px;
+        }
+        #abc
+        {
+            background-color: rgb(95, 156, 240);
+            color: white;
+            padding: 2px;
+            padding-left: 5px;
+            margin-top: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+        <div class="main">
+            <div class="upper">
+                <div class="firstline">
+                    <div class="leftside">
+                        <h3>Giri's TechHub</h3>
+                    </div>
+                    <div class="rightside">
+                        <input type="text" name="Username" placeholder="Username">
+                        <input type="password" name="password" placeholder="password">
+                        <button type="button">Login</button>
+                    </div>
+                </div>
+                <div class="secondline">
+                    <h3>
+                        Welcome To Techmidpoint
+                    </h3>
+                </div>
+                
+            </div>
+            <div class="lower">
+                       
+            </div>
+            <div class="form">
+                <div class="heading">
+                    <h3>
+                        Sign Up
+                    </h3>
+                </div>
+                <div class="data">
+                       <div class="inp">
+                         <input type="text" name="FullName" placeholder="Full Name" required><br>
+                         <input type="email" name="Email" placeholder="Email address" required><br>
+                         <input type="password" name="password" placeholder="Password" required><br>
+                         <input type="password" name="password" placeholder="Re-Type Password" required><br>
+
+                       </div>
+                    <div class="check"><br>
+                        <input type="checkbox" name="checkbox" >
+                        <div class="tex">
+                            Remember me
+                        </div>
+                    </div>
+                    <button type="button" id="abc">Submit</button><br>
+                </div>
+              </div>
+        </div>
+</body>
+</html>
