@@ -167,12 +167,13 @@ nav a:hover
 }
 .firstlineImg button
 {
-    width: 60px;
+    /* width: 60px; */
     padding: 5px;
     margin-top: 7px;
     margin-left: 65px;
+    background-color: black;
     /* border:none; */
-    outline:2px white;
+    /* outline:2px white; */
 }
 button:hover
 {
@@ -199,10 +200,10 @@ footer a
 {
     margin-right: 20px;
 }
-a 
+ a 
 {
     text-decoration: none;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     /* padding: 5px; */
     /* border-radius: 10px; */
