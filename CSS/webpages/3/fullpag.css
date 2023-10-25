@@ -43,12 +43,14 @@ nav
     height:70px;
     padding-top:20px;
     background-color: black;
+    position: relative;
 }
 
 nav a
 {
     padding: 8px;
     border-radius: 5px;
+    
 }
 
 nav a:hover
@@ -58,6 +60,19 @@ nav a:hover
     /* text-decoration:none; */
 }
 
+nav :hover ul
+{
+    position: absolute;
+    color: white;
+}
+
+nav ul li
+{  
+     display: none;
+    /* position: absolute; */
+    /* color: white; */
+    z-index: 1;
+}
 .firstline
 {
     width: 100%;
