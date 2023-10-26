@@ -43,7 +43,7 @@ nav
     height:70px;
     padding-top:20px;
     background-color: black;
-    position: relative;
+    
 }
 
 nav a
@@ -53,25 +53,47 @@ nav a
     
 }
 
-nav a:hover
+nav ul a:hover
 {
     background-color: orangered;
     color: white;
     /* text-decoration:none; */
 }
 
-nav :hover ul
+nav ul a ul
 {
-    position: absolute;
-    color: white;
+    list-style-type: none;
+    display: none;
+    color: black;
+    
+}
+nav ul a:hover
+{
+   
+    position: relative;
+
 }
 
-nav ul li
-{  
-     display: none;
-    /* position: absolute; */
-    /* color: white; */
-    z-index: 1;
+nav ul a:hover ul
+{
+    position:absolute;
+    display:block;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+
+}
+nav ul a:hover ul li
+{
+    margin-top: 4px;
+}
+
+nav ul a:hover ul li:hover
+{
+    background-color: orangered;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .firstline
 {
