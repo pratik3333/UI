@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+       *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .main
+        {
+            height: 100vh;
+            background-color: rgba(104, 41, 41, 0.635);
+        }
+        #a1
+        {
+            height: 20vh;
+            text-align: center;
+            padding-top: 20px;
+        }
+        #a2
+        {
+            height: 10vh;
+            padding-top: 20px;
+        }
+        nav a
+        {
+            /* justify-content:space-around; */
+            text-decoration: none;
+            /* margin-left: 25px; */
+            color: black;
+        }
+        #a3
+        {
+            color: white;
+        }
+        #a13
+        {
+            height: 20vh;
+        }
+        #abc
+        {
+            padding-top: 50px;
+            background-color: chartreuse;
+        }
+        #abc a
+        {   
+            text-decoration:none;
+            color: crimson;
+        }   
+        
+    </style>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+        <div class="main">
+           <header >
+               <div class="row">
+                  <div class="col-12 bg-success" id="a1"><h1>Header</h1></div>
+               </div>
+           </header>
+
+           <nav>
+              <div class="row">
+                <section class="col-12 bg-danger" id="a2">
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                </section>
+              </div>
+           </nav>
+
+           <section class="twoline">
+            <div class="row" id="a13">
+                <section class="col-lg-8 bg-black" id="a3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, mollitia? Nulla assumenda 
+                    dolor ducimus deleniti libero numquam autem, 
+                    eum nihil porro architecto culpa aperiam dolorum aliquid deserunt modi minus vel!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quas ab minima perspiciatis 
+                    cumque beatae et. Reiciendis soluta, ex maiores dignissimos exercitationem quam tenetur corrupti 
+                    recusandae quos, 
+                    vitae id ab accusantium optio placeat beatae vero. Nisi fugiat nemo quidem sit ea accusantium? 
+                    Dolores distinctio, ipsum consectetur quisquam et aliquam iusto.
+                </section>
+                <section class="col-lg-4" id="abc">
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                    <a href="#">ABC</a>
+                </section>
+            </div>
+           </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
