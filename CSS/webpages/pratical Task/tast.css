@@ -1,0 +1,96 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper
+{
+    width: 100vw;
+    padding-right: 60px;
+}
+
+
+header 
+{
+    margin-top: 5px;
+    border: 1px solid black;
+    height: 15vh;
+    background-color: rgb(62, 57, 57);
+    
+}
+header h1
+{
+    color: white;
+    padding-left: 10px;
+}
+
+.nav
+{
+
+    width: 100vw;
+    background-color: black;
+    display:flex ;
+    justify-content:space-between;
+    height: 10vhpx;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ .left button
+{
+    background-color:gray;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav .left a
+{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+nav .right button
+{
+    color: white;
+    background-color: gray;
+    padding: 0px 5px 0px 5px;
+}
+
+.row
+{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#lpart
+{
+    background-color: aquamarine;
+}
+
+#rpart
+{
+    background-color: darkslateblue;
+}
+
+.fbox
+{
+    padding: 0px 0px 10px 10px;
+    border: 1px solid black;
+    
+}
+
+.fbox button
+{
+    padding: 0px 10px 0px 10px;
+}
+
+.para
+{
+    display: flex;
+    justify-content:space-between;
+}
