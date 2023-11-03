@@ -5,10 +5,15 @@
     box-sizing: border-box;
 }
 
+body
+{
+    width: 100vw;
+}
 .wrapper
 {
     width: 100vw;
     padding-right: 60px;
+    margin-left: 10px;
 }
 
 
@@ -26,10 +31,9 @@ header h1
     padding-left: 10px;
 }
 
-.nav
+nav
 {
-
-    width: 100vw;
+    width: 100%;
     background-color: black;
     display:flex ;
     justify-content:space-between;
@@ -38,6 +42,7 @@ header h1
     padding-bottom: 4px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-right: 60px;
 }
 
  .left button
@@ -63,18 +68,19 @@ nav .right button
 
 .row
 {
+    /* width: 100vw; */
     margin-left: 10px;
     margin-top: 10px;
 }
 
 #lpart
 {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 #rpart
 {
-    background-color: darkslateblue;
+    /* background-color: darkslateblue; */
 }
 
 .fbox
@@ -93,4 +99,54 @@ nav .right button
 {
     display: flex;
     justify-content:space-between;
+}
+.fpara , .spara
+{
+    padding-top: 10px;
+}
+footer
+{
+    width: 100vw;
+    height: 10vh;
+    padding-left: 20px;
+    background-color: rgb(140, 138, 138);
+    text-align: start;
+    padding-top: 10px;
+}
+footer a
+{
+    text-decoration: none;
+}
+#rpart h2
+{
+    font-weight: bold;
+}
+
+.b1
+{
+    
+    display: flex;
+    justify-content:stretch;
+    /* background-color: gray; */
+    /* text-align: center;
+     */
+
+}
+
+.b
+{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    position: relative;
+}
+
+.b p
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
 }
