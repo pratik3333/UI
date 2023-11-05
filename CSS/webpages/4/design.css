@@ -1,0 +1,95 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper
+{
+    /* position: relative; */
+}
+nav
+{
+    width: 99vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position:fixed;
+}
+nav h3
+{
+    text-shadow: 0px 0px 10px rgb(71, 164, 181),
+                 0px 10px 20px rgb(90, 189, 216),
+                 0px 0px 10px rgb(53, 117, 165),
+                 0px 0px 10px rgb(210, 253, 103);
+}
+nav #pq
+{
+    color: rgb(90, 229, 90);
+}
+nav #pqr
+{
+    display: flex;
+    gap: 10px;
+    /* font-weight: 400; */
+}
+nav button
+{
+    padding:5px 10px 5px 10px;
+    background-color: rgb(97, 206, 97);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+nav button:hover
+{
+    cursor: pointer;
+}
+
+.first
+{
+    height: 120vh;
+    background: linear-gradient(180deg ,#86A789 ,#B2C8BA),url("H:\\UI\\CSS\\images1\\boy1.png");
+    /* background:linear-gradient(180deg,#053B50,#64CCC5),url("H:\\UI\\CSS\\images1\\boySticker-removebg-preview.png"); */
+    padding-top: 80px;
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+}
+.first .ffline
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.ffline a
+{
+    text-decoration: none;
+    padding-right: 10px;
+    color: black;
+}
+.ffline button
+{
+    padding: 10px 15px 10px 15px;
+    background-color:black;
+    color: white;
+    border: none;
+}
+
+.first img
+{
+    width: 20vw;
+    height: auto;
+    position: sticky;
+}
+
+.second
+{
+    height: 100vh;
+    background-color: aqua;
+}
