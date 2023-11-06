@@ -72,6 +72,7 @@ nav button:hover
     text-decoration: none;
     padding-right: 10px;
     color: black;
+    cursor: pointer;
 }
 .ffline button
 {
@@ -79,6 +80,7 @@ nav button:hover
     background-color:black;
     color: white;
     border: none;
+    cursor:grabbing;
 }
 .first img
 {
@@ -86,6 +88,20 @@ nav button:hover
     height: auto;
 }
 
+.fl 
+{
+    display: flex;
+    justify-content:space-between;
+}
+.fl #pra
+{
+    padding: 130px 20px 0px 500px;
+}
+.fl #pra h3
+{
+    text-align: center;
+    cursor: wait;
+}
 .second
 {
     height: 100vh;
