@@ -75,7 +75,7 @@ nav .right button
 
 #lpart
 {
-    /* background-color: aquamarine; */
+    /* background-color: aquamarine;  */
 }
 
 #rpart
@@ -106,7 +106,7 @@ nav .right button
 }
 footer
 {
-    width: 100vw;
+    width: 98vw;
     height: 10vh;
     padding-left: 20px;
     background-color: rgb(140, 138, 138);
