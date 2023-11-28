@@ -81,13 +81,41 @@ nav button:hover
     color: white;
     border: none;
     cursor:grabbing;
+    
+}
+.ffline button:hover
+{
+    border-radius: 10px;
 }
 .first img
 {
     width: 20vw;
     height: auto;
 }
+.ffline a
+{
+    /* list-style-type: none; */
+    /* display: none; */
+    /* color: black; */
+}
 
+/* .ffline #lm:hover
+{
+    position: relative;
+} */
+.ffline a ul
+{
+    display: none;
+}
+
+.ffline a:hover ul 
+{
+    
+    position: absolute;
+     display: block;
+     list-style-type: none;
+    color: black;
+}
 .fl 
 {
     display: flex;
