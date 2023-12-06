@@ -1,9 +1,13 @@
 
-// Variable 
-var name="pratik";
+// // Variable 
+// var name="pratik";
 
-console.log(name);
+// console.log(name);
 
 
-name="Akash";
-console.log(name);
+// name="Akash";
+// console.log(name);
+
+var nar="pratik";
+
+console.log(nar);
