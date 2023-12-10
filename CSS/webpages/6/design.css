@@ -1,0 +1,123 @@
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box 1px black;
+    /* background-color: #0766AD; */
+}
+
+body
+{
+    /* background-color: cadetblue; */
+}
+
+.wrapper
+{
+    padding: 0px 30px 0px 30px;
+    background-color:white;
+    margin: 20px;
+    /* position: relative; */
+}
+nav
+{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+}
+
+
+nav a
+{
+    /* justify-content: space-around; */
+    padding: 10px;
+    color: #0766AD;
+}
+
+nav a:hover
+{
+    background-color:#0766AD ;
+    border-radius: 5px;
+    color: white;
+    /* font-size: large; */
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.first
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.first h3
+{
+    padding-top: 30px;
+}
+
+.first p
+{
+    padding: 10px 0px 15px 0px;
+}
+
+.first button
+{
+    padding: 10px;
+    background-color: #0766AD;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.first button:hover
+{
+    cursor: grab;
+}
+
+.second 
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+}
+
+.second img
+{
+    width: 350px;
+    height: 100px;
+    margin: 10px 0px 10px 0px;    
+}
+
+.second p
+{
+    width: 350px;
+    text-align: start;
+}
+
+.secondPart
+{
+    margin-top: 30px;
+    background-color:lightgrey;
+    /* position: absolute; */
+}
+
+.heading
+{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#abc
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#abc h3
+{
+    width: 30px;
+}
