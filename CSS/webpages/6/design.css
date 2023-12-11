@@ -107,17 +107,49 @@ nav a:hover
 
 .heading
 {
-    padding-top: 20px;
+    padding: 20px 0px 20px 0px;
     display: flex;
     justify-content: space-between;
+
 }
 #abc
 {
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid black;
+    background-color: lightgrey; */
+    /* width: 20px; */
+    /* height: 30px; */
 }
 
 #abc h3
 {
     width: 30px;
 }
+
+.lastpart
+{
+    display: flex;
+    justify-content: space-between;
+}
+.lastpart img
+{
+    margin: 0px 10px 10px 0px;
+    width: 100px;
+    height: 100px;
+}
+
+#xyz
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.empty-box
+{
+    width: 200px;
+    height: 305px;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
