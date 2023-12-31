@@ -1,5 +1,7 @@
 
 
+//Taking input from User
+
 let age=prompt("Enter User age");
 
 if (age>=18) {
