@@ -1,10 +1,11 @@
 
 let num1=7;
-let num2=33;
+let num2=3;
 
 if (num1 >num2) {
 
     console.log("number "+ num1 + " is greater");
+    
 }
 else
 {
