@@ -7,6 +7,7 @@ let array2=array1.slice(0); // array concatenate using slice 0 means starting po
 
 // let array2=[].concat(array1); //array concatenate using concat
 
+
 console.log(array1===array2);
 
 console.log(array1);
