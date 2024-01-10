@@ -7,8 +7,26 @@ const person={
 }
 
 
+const car={
+    model:"Thar",
+    mileage:14,
+    company:"mahindra"
+}
 
-console.log(Object.keys(person));
+
+const spread={ ...person,...car
+
+}
+
+
+console.log(spread);
 
 // O/P:-
-// [ 'name', 'age', 'hobbies' ]
+// {
+//     name: 'pratik',
+//     age: 25,
+//     hobbies: [ 'sleeping', 'riding', 'guitar' ],
+//     model: 'Thar',
+//     mileage: 14,
+//     company: 'mahindra'
+//   }
