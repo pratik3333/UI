@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper
+{
+    width:90vw;
+    margin-left: 5vw;
+}
+
+body
+{
+    background-color: #FFD0EC;
+}
+.header
+{
+    border: 1px solid black;
+    /* margin:10px 40px 10px 40px; */
+    background-color:#1F2544;
+}
+
+.header h2
+{
+    font-weight: bold;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    color: white;
+}
+
+.header .searchbar
+{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+    padding: 10px;
+    background-color:#474F7A;
+}
+
+.header .searchbar a
+{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.header .searchbar a:hover{
+    background-color:#81689D;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mainpart
+{
+    margin-top: 10px;
+    display: flex;
+}
+#pk{
+    margin-right: 60px;
+}
+.wrapper .mainpart .firstbox
+{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #81689D;
+}
+.wrapper .mainpart .firstbox button:hover
+{
+    cursor: pointer;
+    border-radius: 10px;
+}
+.wrapper .mainpart .firstbox h3
+{
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.wrapper .mainpart .firstbox p
+{
+    margin-bottom: 15px;
+}
+
+.wrapper .mainpart .firstbox button
+{
+    padding: 2px 15px 2px 15px;
+}
+
+.wrapper .mainpart .fourpara
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.wrapper .mainpart .fourpara h4
+{
+    margin-bottom: 10px;
+}
+.wrapper .mainpart .fourpara .fpara , .spara
+{
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+.rside .boxes .fr, .sr, .tr{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 40px; */
+    /* border: 1px solid black; */
+    /* background-color: gray; */
+}
+
+.rside h2
+{
+    margin-bottom: 5px;
+}
+.rside .boxes  h2
+{
+    border: 1px solid black;
+    padding: 30px;
+    margin: 5px;
+    background-color: #474F7A;
+}
+
+.rside h3
+{
+    margin-top: 5px;
+
+}
+#mr
+{
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+}
