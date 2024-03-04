@@ -11,6 +11,10 @@
     margin-left: 5vw;
 }
 
+body
+{
+    background-color: #FFD0EC;
+}
 .header
 {
     border: 1px solid black;
