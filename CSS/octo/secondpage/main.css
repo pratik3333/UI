@@ -1,0 +1,159 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 10px;
+    width: 95vw;
+    margin-left: 20px;
+    background-color: #B5C0D0;
+}
+.firstpart
+{
+    height: 80vh;
+    /* border: 1px solid black;  */
+    /* background-image: url("H:\\UI\\CSS\\octo\\secondpage\\images\\firstimg.jpg");
+  background-repeat: no-repeat; */
+  position: relative;
+  width: 95vw;
+
+}
+
+.firstpart img
+{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh; 
+    width: 95vw;
+    z-index: -1000;
+}
+
+.firstpart .menubar
+{margin-top: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstpart .menubar h3
+{
+    margin-left: 20px;
+}
+
+.firstpart .menubar a
+{
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.firstpart .menubar a:hover
+{
+    cursor: pointer;
+    background-color: #B5C0D0;
+
+}
+
+#mid
+{
+    margin-top: 26vh;
+    text-align: center;
+}
+
+#mid h1
+{
+    margin-bottom: 10px;
+}
+
+#mid p
+{
+    /* padding-bottom: 20px; */
+}
+
+.spart h3
+{
+    text-align: center;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.spart .simg
+{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+.spart .simg img
+{
+    height: 25vh;
+    width: 28vw;
+
+}
+
+.spart .simg p
+{
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-bottom: 50px;
+}
+
+#fs
+{
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(174, 171, 171, 0.479);
+    border-radius: 10px;
+}
+
+#ss
+{
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(174, 171, 171, 0.479);
+    border-radius: 10px;
+}
+
+#st
+{
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(174, 171, 171, 0.479);
+    border-radius: 10px;
+}
+
+.tpart 
+{
+    /* border: 1px solid black; */
+    margin-top: 10vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.tpart img
+{
+    height: 60vh;
+    margin-right: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+#tp
+{
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10vh;
+}
+
+#tp h2
+{
+    margin-bottom: 20px;
+}
