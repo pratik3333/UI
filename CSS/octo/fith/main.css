@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover
+{
+    cursor: pointer;
+}
+
+.secondpart img
+{
+    width: 100vw;
+    height: 80vh;
+    z-index: -1000;
+    position: absolute;
+}
+
+.secondpart button
+{
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+#sa
+{
+    position: relative;
+    text-align: center;
+    /* text-align: horizontal; */
+    padding-top: 200px;
+
+
+}
+#sh
+{
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* .secondpart button :hover
+{
+    background-color: black;
+    color: white;
+} */
+
+#sa button
+{
+    background-color: black;
+    color: white;
+    border: none;
+    /* padding: 0px 10px 0px 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
