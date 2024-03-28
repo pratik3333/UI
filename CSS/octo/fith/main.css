@@ -28,6 +28,10 @@ nav a:hover
     cursor: pointer;
 }
 
+.secondpart
+{
+    height: 80vh;
+}
 .secondpart img
 {
     width: 100vw;
@@ -49,7 +53,7 @@ nav a:hover
     position: relative;
     text-align: center;
     /* text-align: horizontal; */
-    padding-top: 200px;
+    padding-top: 150px;
 
 
 }
@@ -73,4 +77,32 @@ nav a:hover
     /* padding: 0px 10px 0px 10px; */
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.thirdpart h3
+{
+    margin-left: 40px;
+}
+.thirdpart img
+{
+    margin-left: 80px;
+}
+.thirdpart p
+{
+
+    width: 300px;
+}
+
+.thirdpart
+{
+    display: flex;
+    /* justify-self: unset; */
+    justify-content:center;
+    /* margin-right: 80px; */
+    
+}
+
+.thirdpart section
+{
+    margin-right: 60px;
 }
