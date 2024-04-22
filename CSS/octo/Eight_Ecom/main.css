@@ -78,6 +78,10 @@ nav .icons img
      height: 25px;    
 }
 
+nav .icons:hover
+{
+    cursor: pointer;
+}
 
 #subsub2
 {
