@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper
+{
+    width: 90vw;
+    margin: auto;
+    margin: auto;
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+.heading
+{
+    margin-bottom: 20px;
+}
+
+.formdata
+{
+    border: 2px solid black;
+    height: 70vh;
+    width: 40vw;
+    margin: auto;
+}
+
+form
+{
+    margin-top: 100px;
+}
+label
+{
+    margin-right: 10px;
+    font-weight: 900;
+    font-size: larger;
+    
+}
+
+.l1 label
+{
+    margin-right: 50px;
+}
+
+.l1,.l2
+{
+    margin-bottom: 20px;
+}
+
+input
+{
+    padding: 10px;
+}
+
+#inpbtn
+{
+    margin-left: 90px;
+    /* text-align: center; */
+    padding:10px 30px 10px 30px;
+}

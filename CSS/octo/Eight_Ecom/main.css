@@ -1,0 +1,106 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    width: 80%;
+    margin: auto;   
+    /* border: 1px solid black; */
+}
+
+nav 
+{
+    width: 100%;
+    height: 10vh;
+
+    border: 1px solid black;
+    background-color: lightgray;
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+nav .searchbox
+{
+    margin-left: 20px;
+    
+}
+nav .searchbox input
+{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+nav .menus #ful 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+nav .menus #ful li a
+{
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+
+
+nav .menus #ful li a:hover
+{
+    border-radius: 3px;
+    color: black;
+   
+}
+nav .menus #ful li:hover a{
+    background-color: orange;
+}
+nav .menus ul li
+{
+    list-style-type: none;
+}
+
+nav .icons img
+{
+   margin-left: 20px;
+     width: 25px;
+     height: 25px;    
+}
+
+
+#subsub2
+{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    /* visibility: collapse; */
+}
+
+
+#subli2:hover ul li a
+{
+    
+    /* padding: 10px; */
+    /* background-color: aqua; */
+
+}
+
+#subli2:hover ul li a
+{
+
+    visibility: visible;
+    z-index:1;
+}

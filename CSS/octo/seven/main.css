@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    background-color: #252B48;
+}
+
+
+.wrapper
+{
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.wrapper nav
+{
+    margin-top: 10px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: black;
+    padding: 5px 30px 5px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* position: absolute; */
+    border-radius: 20px;
+}
+
+.wrapper nav .symbol
+{
+    color:white;
+    font-size: 30ev;
+}
+
+  nav li 
+{
+    /* list-style: none; */
+    display: inline-block;
+    padding: 10px;
+}
+
+nav li a
+{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    
+}
+
+nav li a:hover
+{
+    background-color:orange;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+
+.wrapper .slide
+{
+    display: flex;
+    flex-direction: row;
+  width: 100%;
+  /* min-height: 300px; */
+  margin-top: 10px;
+  /* position: absolute; */
+  margin-left: 10px;
+}
+
+@media only screen and(max-widht:768px)
+{
+    .wrapper
+    {
+        width: 100%;
+    }
+}
