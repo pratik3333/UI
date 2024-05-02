@@ -13,7 +13,7 @@
     min-height: 100px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: 60px 90px 200px 90px 60px;
+    grid-template-rows: 60px 100px 200px 100px 60px;
     grid-template-areas: "header header header header header"
                           "sbar1 b1 b2 b3 sbar2"
                           "sbar1 content content content sbar2"
@@ -103,4 +103,34 @@ footer
 {
     background-color: slategrey;
     grid-area: footer;
+}
+
+
+@media screen and (max-width: 368px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 1px;
+        grid-template-areas: 
+            "header"
+            "sbar1"
+            "content"
+            "b1"
+            "b2"
+            "b3"
+            "sbar2"
+            "b4"
+            "b5"
+            "b6"
+            "footer";
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    header .hb1,
+    header .hb2 {
+        width: 100%;
+    }
 }

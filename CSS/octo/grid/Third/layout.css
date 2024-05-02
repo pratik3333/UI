@@ -1,0 +1,96 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper
+{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 60px 100px 200px 100px 50px;
+    grid-gap: 5px;
+    grid-template-areas: "header header header header header"
+                          "sbar1 b1 b2 b3 sbar2"
+                          "sbar1 content content content sbar2"
+                          "sbar1 b4 b5 b6 sbar2"
+                          "footer footer footer footer footer";
+    
+}
+
+header
+{
+    background-color: rgb(80, 106, 129);
+    grid-area: header;
+}
+
+.sbar1
+{
+    background-color: rgb(62, 48, 29);
+    grid-area: sbar1;
+}
+
+.b1 
+{
+    background-color: aqua;
+    grid-area: b1;
+}
+.b1 img
+{
+    width: 100%;
+    height: 100%;
+}
+.b2 img
+{
+    width: 100%;
+    height: 100%;
+}
+.b2
+{
+    background-color: aquamarine;
+    grid-area: b2;
+}
+
+.b3
+{
+    background-color: rgb(99, 152, 152);
+    grid-area: b3;
+}
+
+.sbar2
+{
+    background-color: beige;
+    grid-area: sbar2;
+}
+
+.content
+{
+    background-color: bisque;
+    grid-area: content;
+}
+
+.b4
+{
+    background-color: blue;
+    grid-area: b4;
+}
+.b5
+{
+    background-color: burlywood;
+    grid-area: b5;
+}
+
+.b6
+{
+    background-color: yellow;
+    grid-area: b6;
+}
+
+footer
+{
+    background-color: tomato;
+    grid-area: footer;
+}
