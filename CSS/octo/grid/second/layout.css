@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper
+{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 60px 90px 200px 90px 60px;
+    grid-template-areas: "header header header header header"
+                          "sbar1 b1 b2 b3 sbar2"
+                          "sbar1 content content content sbar2"
+                          "sbar1 b4 b5 b6 sbar2"
+                          "footer footer footer footer footer";
+
+                          grid-gap: 10px;
+}
+
+header
+{
+    background-color: aqua;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header .hb1
+{
+    width: 20%;
+     background-color: blue;
+     border: 1px solid black;
+
+}
+
+header .hb2
+{
+    width: 50%;
+    background-color: brown;
+    border: 1px solid black;
+}
+.sbar1
+{
+    background-color: aquamarine;
+    grid-area: sbar1;
+}
+
+.b1
+{
+    background-color: blueviolet;
+    grid-area: b1;
+}
+
+.b2
+{
+    background-color: chartreuse;
+    grid-area: b2;
+}
+
+.b3
+{
+    background-color: violet;
+    grid-area: b3;
+}
+
+.sbar2
+{
+    background-color: yellow;
+    grid-area: sbar2;
+}
+.content
+{
+    background-color: teal;
+    grid-area: content;
+}
+
+.b4
+{
+    background-color: turquoise;
+    grid-area: b4;
+}
+
+.b5
+{
+    background-color: rgb(49, 88, 88);
+    grid-area: b5;
+}
+
+.b6
+{
+    background-color: tomato;
+    grid-area: b6;
+}
+
+footer
+{
+    background-color: slategrey;
+    grid-area: footer;
+}
